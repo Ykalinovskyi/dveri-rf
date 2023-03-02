@@ -1,0 +1,26 @@
+@import "./fonts";
+@import "./variables";
+@import "./mixins";
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container  {
+    max-width: 1196px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.page-body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+    background-color: $white;
+    margin: 0;
+}
